@@ -53,9 +53,9 @@ const filterFunc = (
         // отрезок
         (reqS !== null &&
           reqE !== null &&
-          // огрначение снизу
+          // огрначение сверху
           ((start == null && end !== null && reqS <= end) ||
-            // ограничение сверху
+            // ограничение снизу
             (start != null && end == null && reqE >= start) ||
             // сравнение двух отрезков
             (start !== null &&
